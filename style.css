@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&family=Ubuntu+Mono:ital@0;1&display=swap');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-thin-rounded/css/uicons-thin-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+
+
 
 body{
     width: 100%;
@@ -6,41 +14,41 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: #181818;
 }
 
 
 input{
 
     color: #fff;
-    padding: 17px;
+    padding: 1.5rem;
     outline: none;
-    font-size: 30px;
+    font-size: 2rem;
     font-family: 'Rubik Mono One', sans-serif;
     border-radius:25% ;
 }
 
 .num{
-width: 64px;
-height: 67px;
+width: 5rem;
+height: 4rem;
 
 
 }
 .text{
-width: 160px;
-height: 26px;
-border-radius: 22px;
-letter-spacing: 5px;
+width: 12rem;
+height: 2rem;
+border-radius: 10rem;
+letter-spacing: 1rem;
 text-align: center;
-margin-bottom: 12px;
+margin-bottom: 1rem;
 }
 
 
 .text1{
-width: 24px;
-height: 26px;
-border-radius: 45%;
-letter-spacing: 5px;
+width: 5rem;
+height: 2rem;
+border-radius: 10rem;
+letter-spacing: 1rem;
 text-align: center;
 cursor: pointer;
 
@@ -71,4 +79,30 @@ main{
 }
 .ora{
     background-color: #ff8c00;
+}
+.claro {
+    border-radius: 1.5rem;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+    color: black;
+   margin: 1%;
+   
+}
+
+.escuro {
+    border-radius: 1.5rem;
+    padding: 1rem;
+    cursor: pointer;
+    color: black;
+    
+}
+
+
+.center{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+
 }
